@@ -1,1 +1,1 @@
-console.log("Hello world");
+document.getElementsByTagName("body")[0];document.getElementsByTagName("body")[0].innerHTML="<div></div>",document.getElementsByTagName("div")[0].classList.add("body__block"),document.getElementsByTagName("div")[0].innerHTML="<p>Страница еще не создана<br>ERROR 404</p>",document.getElementsByTagName("p")[0].classList.add("body__block__text");
