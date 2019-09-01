@@ -1,37 +1,70 @@
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="main.css" rel="stylesheet">
     <title>JS</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="enter">
-            <div class="enter__title">Введите действие, которое необходимо осуществить:</div>
-            <div class="enter__action">
-                <input type="text" class="enter__action_js" name="type" value="Например: доделать header и его адаптив">
-                <input type="button" class="enter__action__button_js" name="button" value="OK">
-            </div>
-            <div class="temperature">
-                <div class="temperature__title"><strong>Сколько градусов по Фаренгейту?</strong></div>
-                <div class="temperature__enter">
-                    <p class="temperature__enter__des">Введите градусы по цельсию:</p>
-                    <input type="number" class="temperature__enter__mean_js" value="">
-                    <p class="temperature__enter__des">Результат:</p>
-                    <input type="text" class="temperature__enter__res_js">
+    <header>
+    <div class="header">
+        <div class="container">
+            <div class="flex-box">
+                <div class="header__logo"></div>
+                <div class="header__menu">
+                    <div class="header__menu__line1">
+                        <a class='line1__les1'>Lesson №1</a>
+                        <a class='line1__les2'>Lesson №2</a> 
+                        <a class='line1__les3'>Lesson №3</a>
+                        <a class='line1__les4'>Lesson №4</a>
+                        <a class='line1__les5'>Lesson №5</a>
+                        <a class='line1__les6'>Lesson №6</a>
+                        <a class='line1__les7'>Lesson №7</a>
+                        <a class='line1__les8'>Lesson №8</a>
+                    </div>
+                    <div class="header__menu__line2">
+                        <a class='line2__les9'>Lesson №9</a>
+                        <a class='line2__les10'>Lesson №10</a> 
+                        <a class='line2__les11'>Lesson №11</a>
+                        <a class='line2__les12'>Lesson №12</a>
+                        <a class='line2__les13'>Lesson №13</a>
+                        <a class='line2__les14'>Lesson №14</a>
+                        <a class='line2__les15'>Lesson №15</a>
+                        <a class='line2__les16'>Lesson №16</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <table border="1" class="table" cols="1">
-            <caption class='table__caption'>Список очень важных дел</caption>
-            <tr>
-                <th>Что нужно сделать:</th>
-            </tr>
-        </table>
     </div>
+</header>
+    <div class="date">
+    <div class="container">
+        <div class="date__title">ВВЕДИТЕ GGGG.MM.DD</div>
+        <input type="date" class="date__input" id="date__input_js">
+        <div class="date__result">
+            <div class="date__result__title">До даты которую вы ввели осталось:</div>
+            <span id="date__result_js" class="date__result__res">
+        </div>
+    </div>
+</div>
+    <div class="lamps">
+    <div class="container">
+        <div class="lamps__title">НА ЛАМПОЧКУ И УВИДИТЕ ЧУДО</div>
+        <div class="lamps__hover">
+            <div id="lamps__hover__1_js" class="lamps__hover__1"></div>
+            <div id="lamps__hover__2_js" class="lamps__hover__2"></div>
+            <div id="lamps__hover__3_js" class="lamps__hover__3"></div>
+        </div>
+    </div>
+</div>
+    <div class="parallax">
+    <div class="container">
+        <div class="parallax__title">ДАННЫЙ БЛОК НУЖЕН ДЛЯ ДЕМОНСТРАЦИИ ПАРАЛЛАКС ЭФФЕКТА</div>
+        <div class="parallax__bg" id="parallax__bg_js"></div>
+        <div class="parallax__bg__title">ПАРАЛЛАКС ЭФФЕКТ</div>
+    </div>
+</div>
+    
 </body>
 <script src="script.js"></script>
 </html>
